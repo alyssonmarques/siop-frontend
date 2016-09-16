@@ -7,6 +7,6 @@
 </template>
 <script>
 export default {
-	props: ['controller', 'click', 'label']	
+	props: ['controller', 'click', 'label']
 }
 </script>

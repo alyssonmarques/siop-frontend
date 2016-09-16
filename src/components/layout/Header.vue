@@ -38,6 +38,5 @@
 
 <style>
 .siop-layout__header {
-	background-color: #FFFFFF;
 }
 </style>

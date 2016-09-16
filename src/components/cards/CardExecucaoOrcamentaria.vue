@@ -68,10 +68,8 @@ export default {
   },
 
   created: function() {
-      
       //google.charts.load('current', {'packages':['line']});      
       //google.charts.setOnLoadCallback(this.drawChart);
-      
       google.charts.load('current', {'packages':['line', 'corechart']});
       google.charts.setOnLoadCallback(this.drawChart);
 

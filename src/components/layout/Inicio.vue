@@ -5,7 +5,7 @@
 			{{modulo.chamada}}
 			<slot name="actions">{{modulo.rotuloBotao}}</slot>
 		</card>
-		<estudo>Botão</estudo>
+		<estudo></estudo>
 	</div>
 </template>
 

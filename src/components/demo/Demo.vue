@@ -2,21 +2,23 @@
 	<div>
 		<hr>
 		<h2>{{titulo}}</h2>
-		<div class="siop-demo__descricao">
-			<slot name="descricao"></slot>
-		</div>
 		<div>
 			<slot></slot>
 		</div>
-		<pre class="siop-demo__codigo">
-			<slot name="codigo"><slot>
-		</pre>
+		<code>
+			<slot name='code'></slot>
+		</code>
 	</div>
 	
 	
 </template>
 <script>
+	import Codigo from './../Codigo'
+
 	export default {
+		components: {
+			Codigo
+		},
 		props: ['titulo']
 	}
 </script>
@@ -25,12 +27,5 @@
 	.siop-demo__descricao {
 		padding-top:0pt;
 		padding:20pt;
-	}
-	.siop-demo__codigo {
-		background-color: #F0F0F0;
-		font-family: 'Courier';
-		overflow:auto;
-		height: 200px;
-		border: 2pt solid #CECECE;
 	}
 </style>

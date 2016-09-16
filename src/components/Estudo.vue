@@ -1,18 +1,22 @@
 <template>
-	<card titulo="Teste de botão">
-		<botao label="Teste de Botão" @click="click"></botao>
+	<card titulo="TabPanel">
+		
+		<mdl-tabs :selected.sync="selected">
+			<mdl-tab tab="Tab 1">
+				<p>Tab content</p>
+			</mdl-tab>
+			<mdl-tab tab="Tab 2">
+				<p>Tab content 2</p>
+			</mdl-tab>
+		</mdl-tabs>
+		
 	</card>
-	
 </template>
+
 <script>
-import Card from './cards/Card'
-import Botao from './Botao'
+import { MdlTabs, MdlTab } from 'vue-mdl'
 export default {
-	components: { Card, Botao },
-	methods: {
-		click : function() {
-			alert('click() de Estudo')
-		}
+	components: { MdlTabs, MdlTab  
 	}
 }
 </script>

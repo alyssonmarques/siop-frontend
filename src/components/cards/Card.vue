@@ -23,11 +23,13 @@ export default {
 
 <style>
 .siop-card__cabecalho {
+	/*
 	background-color: rgb(2,85,122);
 	color:#AADDFF;
+	*/
 }
 .siop-card__supporting-text {
-	background-color: #FFFFFF;
+	/* background-color: #FFFFFF; */
 }
 .siop-card {
 	background-color: #FFFFFF; 
