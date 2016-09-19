@@ -1,5 +1,5 @@
 <template>
-	<div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp siop-card">
+	<div class="mdl-card mdl-shadow--2dp siop-card">
 		<div class="mdl-card__title siop-card__cabecalho">
 			<h2 class="mdl-card__title-text">{{titulo}}</h2>
 		</div>
@@ -22,16 +22,21 @@ export default {
 </script>
 
 <style>
+.siop-card {
+	/* table-cell; 
+	display: table-cell;
+	width: 100%;
+	*/
+}
 .siop-card__cabecalho {
+
 	/*
 	background-color: rgb(2,85,122);
 	color:#AADDFF;
 	*/
 }
 .siop-card__supporting-text {
+
 	/* background-color: #FFFFFF; */
-}
-.siop-card {
-	background-color: #FFFFFF; 
 }
 </style>

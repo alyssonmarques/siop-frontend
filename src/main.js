@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import SiopApp from './SiopApp'
-import VueSelector from 'vue-selector'
+//import VueSelector from 'vue-selector'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 
@@ -11,7 +11,7 @@ import Hello from './components/Hello'
 import DemoList from './components/demo/DemoList'
 import TableGridDemo from './components/demo/TableGridDemo'
 
-Vue.use(VueSelector);
+//Vue.use(VueSelector);
 Vue.use(VueRouter);
 Vue.use(VueResource);
 var router = new VueRouter();
